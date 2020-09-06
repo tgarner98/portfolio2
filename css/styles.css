@@ -40,7 +40,7 @@ h1 {
   background-color: rgba(0,0,0,0)!important;
   color: whitesmoke;
   position: fixed;
-  z-index: -101;
+  z-index: 0;
 }
 
 .display-4 {
@@ -54,8 +54,13 @@ h2 {
 .head-link {
   color: whitesmoke;
   font-size: 30px;
-  z-index: 10;
+  z-index: -1;
 }
+
+a {
+  z-index: -1;
+}
+
 .head-link:hover {
   color: #AF0404;
   text-decoration: none;
@@ -67,9 +72,14 @@ div.col-lg {
 }
 
 /* Portfolio */
+
+.container-fluid {
+  z-index: 100;
+}
+
 #portfolio {
   background-color: #AF0404;
-  z-index:-101;
+  z-index: 100;
   border-top: 2px solid #FF0000;
 }
 
@@ -80,6 +90,7 @@ div.col-lg {
   align-items: center;
   color: #252525;
   text-shadow: none;
+  z-index: 10;
 }
 
 img {
