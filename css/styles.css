@@ -1,0 +1,107 @@
+/* Color Palette
+Black #252525;
+Red #FF0000;
+Dark Red #AF0404;
+Gray-Black #414141;
+*/
+
+body {
+  background-color: #252525;
+  font-family: 'Orbitron', sans-serif;
+}
+
+/*Header*/
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -102;
+}
+
+.viewport-header {
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: whitesmoke;
+  text-shadow: 2px 2px 5px black;
+  font-size: 200px;
+}
+
+.jumbotron {
+  background-color: rgba(0,0,0,0)!important;
+  color: whitesmoke;
+  position: fixed;
+  z-index: -101;
+}
+
+.display-4 {
+  font-size: 90px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+.head-link {
+  color: whitesmoke;
+  font-size: 30px;
+  z-index: 10;
+}
+.head-link:hover {
+  color: #AF0404;
+  text-decoration: none;
+  z-index: 11;
+}
+
+div.col-lg {
+  margin-top: 200px;
+}
+
+/* Portfolio */
+#portfolio {
+  background-color: #AF0404;
+  z-index:-101;
+  border-top: 2px solid #FF0000;
+}
+
+#port-head {
+  font-size: 50px;
+  text-align: center;
+  display: block;
+  align-items: center;
+  color: #252525;
+  text-shadow: none;
+}
+
+img {
+  width: 80%;
+  margin: 80px;
+  border: 2px solid #414141;
+  box-shadow: 2px 2px 5px black;
+}
+
+.hr-1 {
+  border: 1px solid #FF0000;
+}
+
+.port-title {
+  text-align: center;
+  font-size: 60px;
+}
+
+.port-p {
+  font-size: 30px;
+}
+
+.port-img:hover {
+  box-shadow: 2px 2px 5px #FF0000;
+}
