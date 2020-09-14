@@ -21,7 +21,7 @@
   <header class="viewport-header">
     <div class="jumbotron">
       <h1 class="display-4">Hi, I'm Tyler</h1>
-      <h2>I'm a front-end developer</h2>
+      <h2 id="head-subhead">I'm a front-end developer</h2>
       <div class="container">
         <div class="row">
           <div class="col-lg">
@@ -40,7 +40,7 @@
   <!--Portfolio-->
   <div class="container-fluid" id="portfolio">
     <h1 class="sect-head">Portfolio</h1>
-    <hr class="hr-1">
+    <hr>
     <!--KlariBeats-->
     <div class="row">
       <div class="col-sm">
@@ -83,29 +83,29 @@
     <h1 class="sect-head" id="skills-head">Skills</h1>
     <hr>
     <div class="row">
-      <div class="col">
+      <div class="col"> <!--HTML-->
         <img class="skills-img" src="css/media/html.png" alt="">
         <h3 class="skills-name">HTML</h3>
       </div>
-      <div class="col">
+      <div class="col"> <!--CSS-->
         <img class="skills-img" src="css/media/css.png" alt="">
         <h3 class="skills-name">CSS</h3>
       </div>
     </div>
     <hr>
     <div class="row">
-      <div class="col">
+      <div class="col"> <!--JavaScript-->
         <img class="skills-img" src="css/media/js.png" alt="">
         <h3 class="skills-name">JavaScript</h3>
       </div>
-      <div class="col">
+      <div class="col"> <!--Bootstrap-->
         <img class="skills-img" src="css/media/bootstrap.png" alt="">
         <h3 class="skills-name">Bootstrap</h3>
       </div>
     </div>
     <hr>
     <div class="row">
-      <div class="col">
+      <div class="col"> <!--Photoshop-->
         <img class="skills-img" src="css/media/photoshop.png" alt="">
         <h3 class="skills-name">Photoshop</h3>
       </div>
@@ -118,18 +118,20 @@
   <div class="container-fluid" id="contact">
     <h1 class="sect-head" id="contact-head">Contact</h1>
     <hr>
+    <!--Contact Form-->
     <form action="https://getform.io/f/5c39028f-c2bf-485c-bf4e-4b57fc7b881d" method="POST">
       <div class="form-group">
         <label for="email">Email address</label>
-        <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter email">
+        <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter email" required>
       </div>
       <div class="form-group">
         <label for="message">Message</label>
-        <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+        <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
       </div>
       <button type="submit" class="btn btn-primary">Submit</button>
     </form>
   </div>
+  <!--Footer-->
   <footer>
     <a class="footer-icon" href="https://www.linkedin.com/in/tyler-garner-68b7521b3/" target="_blank"><i class="fab fa-linkedin"></i></a>
     <a class="footer-icon" href="https://github.com/tgarner98" target="_blank"><i class="fab fa-github-square"></i></a>
